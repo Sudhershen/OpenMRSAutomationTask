@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="136138" started-at="2024-09-04T19:13:58Z" finished-at="2024-09-04T19:16:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="136138" started-at="2024-09-04T19:13:58Z" finished-at="2024-09-04T19:16:14Z">
+      <class name="org.test.OpenMrs">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.test.OpenMrs@2286778]" name="setUp" is-config="true" duration-ms="7531" started-at="2024-09-04T19:13:58Z" finished-at="2024-09-04T19:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="the_user_has_to_login()[pri:1, instance:org.test.OpenMrs@2286778]" name="the_user_has_to_login" duration-ms="3751" started-at="2024-09-04T19:14:06Z" finished-at="2024-09-04T19:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_user_has_to_login -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.OpenMrs@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2024-09-04T19:14:06Z" finished-at="2024-09-04T19:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.test.OpenMrs@2286778]" name="afterMethod" is-config="true" duration-ms="347" started-at="2024-09-04T19:14:10Z" finished-at="2024-09-04T19:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=the_user_has_to_login status=SUCCESS method=OpenMrs.the_user_has_to_login()[pri:1, instance:org.test.OpenMrs@2286778] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="register_patient_and_verify_record()[pri:2, instance:org.test.OpenMrs@2286778]" name="register_patient_and_verify_record" duration-ms="37375" started-at="2024-09-04T19:14:10Z" finished-at="2024-09-04T19:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_patient_and_verify_record -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.OpenMrs@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2024-09-04T19:14:10Z" finished-at="2024-09-04T19:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.test.OpenMrs@2286778]" name="afterMethod" is-config="true" duration-ms="363" started-at="2024-09-04T19:14:47Z" finished-at="2024-09-04T19:14:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=register_patient_and_verify_record status=SUCCESS method=OpenMrs.register_patient_and_verify_record()[pri:2, instance:org.test.OpenMrs@2286778] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="create_new_service_type()[pri:3, instance:org.test.OpenMrs@2286778]" name="create_new_service_type" duration-ms="10991" started-at="2024-09-04T19:14:48Z" finished-at="2024-09-04T19:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_new_service_type -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.OpenMrs@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2024-09-04T19:14:48Z" finished-at="2024-09-04T19:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.test.OpenMrs@2286778]" name="afterMethod" is-config="true" duration-ms="733" started-at="2024-09-04T19:14:59Z" finished-at="2024-09-04T19:14:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_new_service_type status=SUCCESS method=OpenMrs.create_new_service_type()[pri:3, instance:org.test.OpenMrs@2286778] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.OpenMrs@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2024-09-04T19:14:59Z" finished-at="2024-09-04T19:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="create_appointment_block()[pri:4, instance:org.test.OpenMrs@2286778]" name="create_appointment_block" duration-ms="19101" started-at="2024-09-04T19:14:59Z" finished-at="2024-09-04T19:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_appointment_block -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.test.OpenMrs@2286778]" name="afterMethod" is-config="true" duration-ms="267" started-at="2024-09-04T19:15:18Z" finished-at="2024-09-04T19:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_appointment_block status=SUCCESS method=OpenMrs.create_appointment_block()[pri:4, instance:org.test.OpenMrs@2286778] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.test.OpenMrs@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2024-09-04T19:15:19Z" finished-at="2024-09-04T19:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="scheduleAppointmentforPatient()[pri:5, instance:org.test.OpenMrs@2286778]" name="scheduleAppointmentforPatient" duration-ms="54669" started-at="2024-09-04T19:15:19Z" finished-at="2024-09-04T19:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleAppointmentforPatient -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.test.OpenMrs@2286778]" name="afterMethod" is-config="true" duration-ms="328" started-at="2024-09-04T19:16:13Z" finished-at="2024-09-04T19:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scheduleAppointmentforPatient status=SUCCESS method=OpenMrs.scheduleAppointmentforPatient()[pri:5, instance:org.test.OpenMrs@2286778] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.test.OpenMrs@2286778]" name="tearDown" is-config="true" duration-ms="649" started-at="2024-09-04T19:16:14Z" finished-at="2024-09-04T19:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.test.OpenMrs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
